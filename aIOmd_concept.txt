@@ -1,0 +1,18 @@
+Pyaudio Documentation:
+-https://people.csail.mit.edu/hubert/pyaudio/docs/
+
+Separate channel selection:
+-https://stackoverflow.com/questions/30071822/pyaudio-how-to-get-sound-on-only-one-speaker
+
+functions to be implemented:
+-get original input signal and hand it to either L/R output channel in real time
+-manipulate original input signal and hand it to either L/R output channel, but delayed 
+-random switching between output channels for os and ms, but always to opposed channels
+-latency for ms
+-allow recording of output
+
+function:				parameter:
+-random switching L/R			-frequency
+
+-latency				-time os has to be delayed
+					-frequency of delay
